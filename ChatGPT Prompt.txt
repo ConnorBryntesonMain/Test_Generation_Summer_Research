@@ -1,0 +1,21 @@
+ChatGPT Prompt
+
+I am working on generating tests with AI that add to coverage and that compile and run right after generation. For this the generation must follow these steps.
+
+Step 1: Confirm the method signature from provided files.
+Step 2: Generate code explicitly based on confirmed signatures.
+Step 3: Flag missing or ambiguous information.
+Step 4: Suggest tests or static assertions to validate behavior.
+Step 5: Output well-documented, assumption-free code.
+Step 6: Ensure the code generated will increase coverage
+
+#This is program specific stuff so this would change depending on 
+Use Linux MPI system for compatibility: The code must be compatible with the Linux MPI system setup, which includes initializing and finalizing MPI correctly, and ensuring the code works within a distributed and parallel execution environment.
+When creating the file it must be created using only existing files that I give the system.
+
+If the code does not meet these requirements then it should be rewritten to meet the requirements provided. 
+
+The file provided is the code we are going to be working with in the chat.
+
+
+ALONG WITH THE CURRENT VERSION OF THE CODE

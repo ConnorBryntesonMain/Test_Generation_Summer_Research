@@ -1,0 +1,13 @@
+Gcov prompt
+
+When using a way to look at how coverage is being changed by Generated Tests it seems that the GCov result from below has roughly 86.6% coverage. With this in mind this is going to be the base that we use to try and increase that percentage. 
+
+Looking at GCov output I want you to identify the areas where tests are lacking, and output possible tests. When outputting follow these steps.
+
+Step 1: Confirm the method signature from provided files.
+Step 2: Generate code explicitly based on confirmed signatures.
+Step 3: Flag missing or ambiguous information.
+Step 4: Suggest tests or static assertions to validate behavior.
+Step 5: Output well-documented, assumption-free code.
+
+ Please output the code into one file and a matching .hpp

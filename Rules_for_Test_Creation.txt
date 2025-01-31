@@ -1,0 +1,34 @@
+//This has become reduntent due to changing the prompt
+
+Initialization:
+
+Use initialization functions like InitializeVector only for memory allocation.
+Assign specific values to objects manually after initialization using loops or helpers.
+
+Header Management:
+
+Include all required headers explicitly.
+Organize headers into groups: Standard library, External libraries, and Project-specific.
+Avoid relying on transitive includes.
+
+Direct Member Access:
+
+Do not use object->member for accessing properties.
+Use public members (e.g., A.localNumberOfRows) or accessor methods like GetLocalNumberOfRows().
+
+Parameter Validation:
+
+Ensure all parameters are validated before usage, using assertions or conditionals.
+Confirm values like sizes and dimensions are positive and consistent.
+Documentation:
+
+Provide structured comments for test functions, including:
+
+Purpose
+Parameters (names, types, roles)
+Expected behavior and outcomes.
+
+Edge Case Handling:
+
+Include tests for edge cases like zero-sized inputs, large inputs, and non-standard values (NaN, infinity).
+Ensure the program handles these cases gracefully.
